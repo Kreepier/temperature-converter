@@ -32,6 +32,17 @@ print(celsius_to_fahrenheit(25))   # 25°C → 77°F
 print(fahrenheit_to_kelvin(32))    # 32°F → 273.15K
 ```
 
+## Опис функцій
+
+| Назва функції                    | Опис                                              | Приклад виклику                    |
+|:--------------------------------:|:--------------------------------------------------|:-----------------------------------|
+| `celsius_to_fahrenheit(celsius)` | Конвертує температуру з Цельсія у Фаренгейт       | `celsius_to_fahrenheit(25)`       |
+| `fahrenheit_to_celsius(fahrenheit)` | Конвертує температуру з Фаренгейта у Цельсій  | `fahrenheit_to_celsius(32)`       |
+| `celsius_to_kelvin(celsius)`     | Конвертує температуру з Цельсія у Кельвін         | `celsius_to_kelvin(25)`           |
+| `kelvin_to_celsius(kelvin)`      | Конвертує температуру з Кельвіна у Цельсій        | `kelvin_to_celsius(300)`          |
+| `fahrenheit_to_kelvin(fahrenheit)` | Конвертує температуру з Фаренгейта у Кельвін  | `fahrenheit_to_kelvin(32)`        |
+
+
 ## Документація
 
 Детальний опис усіх функцій дивись тут: [DOCUMENTATION.md](DOCUMENTATION.md)
