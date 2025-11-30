@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature Converter – Документація</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f0f0;
+            padding: 30px;
+        }
+        .container {
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+            max-width: 900px;
+            margin: auto;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+        }
+        h1, h2, h3 {
+            color: #222;
+        }
+        code {
+            background: #eee;
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
+        pre {
+            background: #eee;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        ul {
+            line-height: 1.6;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        th {
+            background: #fafafa;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <h1>Temperature Converter</h1>
+    <p>
+        Це Python-додаток, який дозволяє конвертувати температуру між одиницями: 
+        <b>Цельсій</b>, <b>Фаренгейт</b> та <b>Кельвін</b>.  
+        Програма містить набір функцій та консольний інтерфейс.
+    </p>
+
+    <h2>Інструкції з встановлення</h2>
+    <ol>
+        <li>Клонуйте репозиторій:
+            <pre><code>git clone https://github.com/Kreepier/temperature-converter.git</code></pre>
+        </li>
+        <li>Перейдіть у каталог:
+            <pre><code>cd temperature-converter</code></pre>
+        </li>
+        <li>Запустіть програму:
+            <pre><code>python converter.py</code></pre>
+        </li>
+    </ol>
+
+    <h2>Приклади використання</h2>
+    <pre><code>from converter import celsius_to_fahrenheit, fahrenheit_to_kelvin
+
+print(celsius_to_fahrenheit(25))   # 77°F
+print(fahrenheit_to_kelvin(32))    # 273.15K
+</code></pre>
+
+    <h2>Опис функцій</h2>
+    <table>
+        <tr>
+            <th>Функція</th>
+            <th>Опис</th>
+            <th>Приклад</th>
+        </tr>
+        <tr>
+            <td><code>celsius_to_fahrenheit(c)</code></td>
+            <td>Конвертує Цельсій у Фаренгейт</td>
+            <td><code>celsius_to_fahrenheit(25)</code></td>
+        </tr>
+        <tr>
+            <td><code>fahrenheit_to_celsius(f)</code></td>
+            <td>Конвертує Фаренгейт у Цельсій</td>
+            <td><code>fahrenheit_to_celsius(32)</code></td>
+        </tr>
+        <tr>
+            <td><code>celsius_to_kelvin(c)</code></td>
+            <td>Конвертує Цельсій у Кельвін</td>
+            <td><code>celsius_to_kelvin(25)</code></td>
+        </tr>
+        <tr>
+            <td><code>kelvin_to_celsius(k)</code></td>
+            <td>Конвертує Кельвін у Цельсій</td>
+            <td><code>kelvin_to_celsius(300)</code></td>
+        </tr>
+        <tr>
+            <td><code>fahrenheit_to_kelvin(f)</code></td>
+            <td>Конвертує Фаренгейт у Кельвін (через Цельсій)</td>
+            <td><code>fahrenheit_to_kelvin(32)</code></td>
+        </tr>
+    </table>
+
+    <h2>Контактна інформація</h2>
+    <p>
+        Автор: <b>Бойчук Олександр</b><br>
+        GitHub: <a href="https://github.com/Kreepier" target="_blank">https://github.com/Kreepier</a>
+    </p>
+
+</div>
+</body>
+</html>
+
