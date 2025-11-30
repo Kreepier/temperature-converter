@@ -1,2 +1,36 @@
-# Temperature Converter 
-Simple temperature conversion tool on Python. bla bla bla
+# Temperature Converter
+
+## Короткий опис
+Це простий Python-додаток, який дозволяє конвертувати температуру між різними одиницями: **Цельсієм**, **Фаренгейтом** та **Кельвіном**. Програма працює в консолі та містить кілька базових функцій для обчислень.
+
+## Функціональність
+- Конвертація *Цельсій → Фаренгейт*
+- Конвертація *Фаренгейт → Цельсій*
+- Конвертація *Цельсій → Кельвін*
+- Конвертація *Кельвін → Цельсій*
+- Автоматичний розрахунок *Фаренгейт → Кельвін* через проміжну конвертацію
+
+## Інструкції з встановлення
+1. Клонуйте репозиторій:
+    ```bash
+    git clone https://github.com/Kreepier/temperature-converter.git
+    ```
+2. Перейдіть у каталог:
+    ```bash
+    cd temperature-converter
+    ```
+3. Запустіть програму:
+    ```bash
+    python converter.py
+    ```
+
+## Приклад використання
+```python
+from converter import celsius_to_fahrenheit, fahrenheit_to_kelvin
+
+print(celsius_to_fahrenheit(25))   # 25°C → 77°F
+print(fahrenheit_to_kelvin(32))    # 32°F → 273.15K
+```
+
+## Автор
+**Бойчук Олександр КН-21**
