@@ -1,2 +1,2 @@
-# Temperature Converter
-Simple temperature conversion tool on Python!!! bla bla bla
+# Temperature Converter 
+Simple temperature conversion tool on Python. bla bla bla
