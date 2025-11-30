@@ -32,5 +32,9 @@ print(celsius_to_fahrenheit(25))   # 25°C → 77°F
 print(fahrenheit_to_kelvin(32))    # 32°F → 273.15K
 ```
 
+## Документація
+
+Детальний опис усіх функцій дивись тут: [DOCUMENTATION.md](DOCUMENTATION.md)
+
 ## Автор
 **Бойчук Олександр КН-21**
